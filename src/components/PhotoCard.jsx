@@ -14,7 +14,7 @@ const PhotoCard = ({ photo }) => {
         <div className="ratio ratio-4x3 overflow-hidden rounded-top">
           <img
             src={thumbnailUrl}
-            alt={`Photo by ${photo.author}`}
+            alt={`Shot by ${photo.author}`}
             loading="lazy"
             className="w-100 h-100 object-fit-cover"
           />

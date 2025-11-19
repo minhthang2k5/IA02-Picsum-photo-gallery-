@@ -80,7 +80,7 @@ const PhotoDetailPage = () => {
           <div className="ratio ratio-4x3 rounded overflow-hidden shadow-sm">
             <img
               src={photo.download_url}
-              alt={`Photo by ${photo.author}`}
+              alt={`Captured by ${photo.author}`}
               className="w-100 h-100 object-fit-cover"
             />
           </div>
