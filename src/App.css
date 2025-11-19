@@ -1,0 +1,28 @@
+.app-shell {
+  min-height: 100vh;
+  background: #f5f7fb;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 4rem;
+}
+
+.photo-card img {
+  transition: transform 0.5s ease;
+}
+
+.photo-card:hover img {
+  transform: scale(1.04);
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.sentinel {
+  width: 100%;
+  height: 1px;
+}
